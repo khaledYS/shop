@@ -17,14 +17,14 @@ const Where = ({prop}) => {
                         changeWhere(e.target.getAttribute('data-where'))
                     }
                 }
-            > <span>Dine-In</span> <img src={dining} className='icon'/>  </button>
+            > <span>Dine-In</span> <img alt='icon' src={dining} className='icon'/>  </button>
             <button className="where" data-where='takeaway' 
                 onClick={
                     (e)=>{
                         changeWhere(e.target.getAttribute('data-where'))
                     }
                 }
-            >  <span>Take-Away</span> <img src={takeaway} className='icon'/></button>
+            >  <span>Take-Away</span> <img alt='icon' src={takeaway} className='icon'/></button>
         </div>
      );
 }

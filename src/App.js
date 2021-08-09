@@ -43,9 +43,9 @@ function App() {
   return (
     <div className="App">
       {
-        currentWindow == "lang" ? <SelectLang prop={prop} /> : 
-        currentWindow == "where" ? (options.lang=="ar") ? <WhereAr prop={prop} /> : <WhereEn prop={prop} /> :
-        currentWindow == "kind" ? (options.lang=="ar") ? <KindAr prop={prop}/> : <KindEn prop={prop} /> :
+        currentWindow === "lang" ? <SelectLang prop={prop} /> : 
+        currentWindow === "where" ? (options.lang==="ar") ? <WhereAr prop={prop} /> : <WhereEn prop={prop} /> :
+        currentWindow === "kind" ? (options.lang==="ar") ? <KindAr prop={prop}/> : <KindEn prop={prop} /> :
         ""
       }
     </div>
