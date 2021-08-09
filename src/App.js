@@ -20,9 +20,7 @@ function App() {
   })
   function changeOption(value){
     setOptions({
-      lang: options.lang, 
-      where:  options.where, 
-      kind:  options.kind,
+      ...options,
       [value.key] : value.value
     })
   }
