@@ -1,4 +1,4 @@
-import './kindAr.css'
+import './kind.css'
 
 const Kind = () => {
     return ( <>الصنف بالعربي...</> );

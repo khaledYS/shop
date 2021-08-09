@@ -1,9 +1,9 @@
 import { useEffect, useState } from 'react';
 import SelectLang from './selectLang/SelectLang';
-import WhereEn from './en/where/WhereEn'
-import WhereAr from './ar/where/WhereAr'
-import KindEn from './en/kind/KindEn';
-import KindAr from './ar/kind/KindAr';
+import WhereEn from './en/where/Where'
+import WhereAr from './ar/where/Where'
+import KindEn from './en/kind/Kind';
+import KindAr from './ar/kind/Kind';
 import './App.css';
 
 function App() {
@@ -30,7 +30,8 @@ function App() {
   // this will allow to me to give all the components a any function in here and change when ever i whant 
   const prop = {
     setCurrentWindow:setCurrentWindow,
-    changeOption:changeOption
+    changeOption:changeOption, 
+    options:options
   }
 
 

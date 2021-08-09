@@ -1,4 +1,4 @@
-import './whereEn.css'
+import './where.css'
 import takeaway from '../../img/icons/Takeaway.svg'
 import dining from '../../img/icons/Dining.svg'
 

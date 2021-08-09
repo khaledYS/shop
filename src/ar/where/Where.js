@@ -1,4 +1,4 @@
-import './whereAr.css'
+import './where.css'
 
 const Where = () => 
 
