@@ -1,0 +1,35 @@
+:root{
+    --where-font-color: #bdbdbdb;
+}
+.where-container{
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    flex-direction: column;
+    width: 50vw;
+}
+.where-container > .where{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    -webkit-appearance: none;
+    appearance: none;
+    width: 100%;
+    margin: 15px;
+    font-size: 5vw;
+    padding: 2rem;
+    outline: none;
+    border: none;
+    border-radius: 1rem;
+    cursor: pointer;
+    background: #171717;
+    color:var(--where-font-color);
+    transition: filter 100ms;
+}
+.where-container > .where:hover{
+    filter: brightness(2);
+}
+.where-container > .where .icon {
+    max-width: 5vw;
+    fill: var(--where-font-color);
+}

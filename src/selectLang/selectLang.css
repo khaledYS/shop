@@ -1,0 +1,27 @@
+.lang-container{
+    display: flex;
+    justify-content: center;
+    align-items: cneter;
+    flex-direction: column;
+}
+.lang{
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    margin: 15px;
+    font-size: 5vw;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+    border: none;
+    border-radius: 1rem;
+    cursor: pointer;
+    background: #171717;
+    color: #bdbdbd;
+    transition: filter 100ms;
+}
+.lang:hover{
+    filter: brightness(2);
+}
